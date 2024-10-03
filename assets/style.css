@@ -6,6 +6,12 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
+.hidetext {
+	color: #000;
+	text-indent: -9999px;
+}
+
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -42,6 +48,10 @@ body {
 	width: 20px;
 }
 
+#header {
+	height: 46.25vw;
+}
+
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -69,7 +79,7 @@ body {
 
 .picture img {
 	width: 100%;
-
+	height: auto;
 }
 #about-me {
 	flex: 2
